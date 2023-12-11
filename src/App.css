@@ -1,0 +1,90 @@
+body{
+  background-color: lavender;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home{
+  color: steelblue;
+
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+nav a{
+  color: darkslategrey;
+  padding: .5rem;
+  border: .3rem dashed ;
+
+}
+nav a:hover{
+  background-color: peachpuff;
+  color: olivedrab;
+
+}
+
+
+h1{
+  text-align: center;
+  
+}
+h2{
+  text-align: center;
+}
+.all{
+  color: slateblue;
+}
+.allUsers{
+  color: darkolivegreen;
+  background-color:lightcyan
+
+}
+.allUsers a{
+  text-align: center;
+}
+.allPost { 
+  text-align: center;
+  color: lavenderblush;
+  background-color:lightslategray
+
+}
+.allP{
+  color: orchid;
+}
+
+.allPost a {
+  color: lavenderblush;
+  padding: 1rem;
+
+
+}
+.allPost a:hover{
+  color:darkgreen;
+
+
+}
+ul{
+  list-style: none;
+}
+.single{
+  color: mediumorchid;
+}
+.singleUser{
+  background-color: #dda0dd;
+  text-align: center;
+  border: 3rem solid;
+}
+.singleUser a{
+  color: darkcyan
+}
+.singlePost{
+  text-align: center;
+  color: olivedrab;
+}
+.singleP{
+  color: dimgrey;
+}
+.singlePost a{
+  color: fuchsia;
+}
+
